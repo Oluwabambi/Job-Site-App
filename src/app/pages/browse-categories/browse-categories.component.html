@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-6 col-sm-4 cat-item mb-3" *ngFor="let category of categories" >
+        <div class="cat-contain">
+            <div class="d-flex justify-content-between">
+                <img src="./assets/caticon.png" alt="">
+                <span>{{category.total}} jobs</span>
+            </div>
+            <p>{{category.categoryName}} <i class="fa-solid ms-2 fa-arrow-right"></i></p>
+        </div>
+    </div>
+</div>

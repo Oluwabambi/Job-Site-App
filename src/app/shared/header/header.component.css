@@ -1,0 +1,32 @@
+.navbar-brand img {
+    width: 220px;
+}
+.navig .nav-item {
+    margin-right: 45px;
+    position: relative;
+}
+.line {
+    height: 2px;
+    background-color: red;
+    width: 0%;
+    transition: all 0.35s;
+    margin-left: 0.5rem;
+}
+.nav-item:hover .line {
+    width: 90%;
+}
+.nav-link {
+    color: black;
+    transition: all 0.5s;
+}
+.log-color {
+    color: #6844E2;
+}
+.sign-btn {
+    background-color: #6844E2;
+    color: white;
+}
+.sign-btn:hover {
+    background-color: #6944e2ec;
+    color: white;
+}

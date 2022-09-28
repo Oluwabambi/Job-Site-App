@@ -1,0 +1,28 @@
+.cat-contain {
+    padding: 20px 15px 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px #00000024;
+    border-radius: 10px;
+}
+.col-sm-4 p {
+    margin-left: 11px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* .cat-item p {
+    margin-top: 1rem;
+} */
+.cat-item:nth-child(3n+1) p {
+    color: #00E4C3;
+}
+.cat-item:nth-child(3n+2) p {
+    color: #FEC06D;
+}
+.cat-item:nth-child(3n+3) p {
+    color: #6844E2;
+}
+@media (max-width: 400px) {
+    .cat-item p {
+        font-size: 13px;
+    }
+}

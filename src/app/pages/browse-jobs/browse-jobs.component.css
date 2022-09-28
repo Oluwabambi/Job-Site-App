@@ -1,0 +1,44 @@
+.job-contain {
+    padding: 20px 15px 25px 25px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px #00000024;
+    border-radius: 10px;
+}
+.job-contain img {
+    width: 45px;
+}
+.job-contain p {
+    margin-bottom: 0;
+}
+.j-first {
+    display: flex;
+}
+.j-first p {
+    color: #6D7472;
+}
+.j-second {
+    margin-top: 1.25rem;
+}
+p:nth-child(2) {
+    font-weight: 300;
+}
+.j-summary {
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.j-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.j-bottom span {
+    color: #5632D0;
+}
+.job-btn {
+    padding: 0.5rem 2.25rem;
+    border: none;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(254, 192, 109, 0.33) 0deg, rgba(104, 68, 226, 0.24) 26.12deg, rgba(254, 192, 109, 0.33) 360deg);
+    border-radius: 10px;
+    font-weight: 300;
+}

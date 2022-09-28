@@ -1,0 +1,22 @@
+<div class="row">
+    <div *ngFor="let job of jobs" class="col-sm-4 col-12 mb-3">
+        <div class="job-contain">
+            <div class="j-first">
+                <img src="{{job.image}}" alt="">
+                <div class="ms-3">
+                    <p>{{job.companyName}}</p>
+                    <p>{{job.companyAddress}}</p>
+                </div>
+            </div>
+            <div class="j-second">
+                <p>{{job.title}}</p>
+                <p>{{job.type}}</p>
+            </div>
+            <div class="j-summary">{{job.jobSummary}}</div>
+            <div class="j-bottom">
+                <span>{{job.pay}}</span>
+                <button class="job-btn">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
