@@ -241,9 +241,6 @@
   font-size: 20px;
 }
 @media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
     .hero-sect {
         flex-direction: row;
     }
